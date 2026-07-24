@@ -184,7 +184,52 @@ main {
   color: #181818;
 }
 
-.skill-description {
+.skill-description,
+.experience-description {
   font-size: 16px;
   color: #757575;
 }
+
+/* Resume section */
+.resume {
+  margin-bottom: 130px;
+  text-align: center;
+}
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  text-align: left;
+}
+
+.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin: 0;
+}
+
+.experience-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.experience-description {
+  padding-right: 45px;
+}
+
+hr {
+  color: rgba(209, 209, 209, 0.308);
+  height: 0.1px;
+  margin: 30px 0;
+}
+
